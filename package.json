@@ -1,0 +1,17 @@
+{
+  "name": "@jrontends/check-package",
+  "version": "1.0.0",
+  "description": "A terminal application to check and update npm package versions in a project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "check-package": "./index.js"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.6"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
